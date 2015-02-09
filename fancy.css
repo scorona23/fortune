@@ -1,6 +1,10 @@
 body{
 	text-align: center;
+<<<<<<< HEAD
+	background-image:url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRB0i-LJ38OuZJomY1dRkHAYOWgVj_dn6mVscaBAr7GYZX_hL7uIQ")
+=======
 	background-image:url("bg.jpg")
+>>>>>>> 70c3dc0cfe31d5a89dfc377498840fde3b17f9a4
 }
 
 table,td {
