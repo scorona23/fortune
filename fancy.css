@@ -4,7 +4,7 @@ body{
 }
 
 table,td {
-	border: 1px black solid;
+	border: none;
 	margin: auto;
 }
 img{
