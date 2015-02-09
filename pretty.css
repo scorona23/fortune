@@ -1,5 +1,88 @@
-h1{
-	text-align:center;
+@font-face{
+	font-family: myFirstFont;
+	src: url('Aliquam.ttf');
+}
+
+@font-face{
+
+    font-family: Mirror;
+    src: url('Mirror_39_s_Edge_Font.ttf')
+    
+}
+
+
+
+/* Custom styling to navbar
+-------------------------------------*/
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;    
+}
+
+.right-inner-addon{
+    position: relative;
+    top: 8px;
+    right: 1px;
+    height: 3px;
+}
+.navbar-wrapper > .containter {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+/* Responsive CSS
+-------------------------------------*/
+
+@media (min-width: 768px){
+
+    .navbar-wrapper{
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-wrapper .navbar{
+        border-radius: 4px;
+    }
+}
+
+/* --------- BUTTON-----------*/
+
+
+
+body {
+    padding-top: 70px;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("http://www.pulsarmedia.eu/data/media/14/Hd_Creative_Planet_1080P_Hd_Wallpaper.jpg");
+    font-family: myFirstFont;
+    font-size: 72px;
+        
+
+    
+}
+
+#bdiv{
+    height: 500px;
+    margin: auto;
 }
 #button{
 	background-color:blue;
@@ -9,8 +92,20 @@ h1{
 	font-size: 50px;
 	color: white;
 	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+    width: 300px;
+    font-family: myFirstFont;
+    margin: auto;
+    
 }
-a{
-	text-align: center;
+
+#Make{
+    font-family: Mirror;
+    color: red;
+    padding-bottom: 150px;
+    font-size: 72px
 }
 
